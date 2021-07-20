@@ -1,5 +1,5 @@
-const canvasHeight = window.outerWidth;
-const canvasWidth = window.outerHeight;
+const canvasHeight = parseInt(window.outerHeight / 100 * 87);
+const canvasWidth = parseInt(window.outerWidth  / 100 * 98);
 
 let r1 = 0;
 let r2 = 0;
@@ -14,7 +14,7 @@ let x1 = 0;
 let y1 = 0;
 
 function setup() {
-  createCanvas(canvasHeight, canvasWidth);
+  createCanvas(canvasWidth, canvasHeight);
   angleMode(DEGREES);
   background(0);
   frameRate(60);
