@@ -1,5 +1,5 @@
-const canvasHeight = parseInt(window.outerHeight / 100 * 87);
-const canvasWidth = parseInt(window.outerWidth  / 100 * 98);
+const canvasHeight = parseInt((window.outerHeight / 100) * 69);
+const canvasWidth = parseInt((window.outerWidth / 100) * 87);
 
 let r1 = 0;
 let r2 = 0;
